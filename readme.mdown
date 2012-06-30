@@ -1,13 +1,9 @@
-Installation:
-
-```
-npm install undress
-```
-
-Usage:
+Very simple node.js utility that replaces accented characters with their ASCII
+equivalents.
 
 ```javascript
 var undress = require('undress');
-
 undress('éäçñüæ'); // => 'eacnuae'
 ```
+
+Install with `npm install undress`.
