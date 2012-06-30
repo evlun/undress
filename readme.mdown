@@ -1,13 +1,13 @@
 Installation:
 
 ```
-npm install strip-accents
+npm install undress
 ```
 
 Usage:
 
 ```javascript
-var strip = require('strip-accents');
+var undress = require('undress');
 
-strip('éäçñüæ'); // => 'eacnuae'
+undress('éäçñüæ'); // => 'eacnuae'
 ```
