@@ -1,0 +1,15 @@
+{
+  "name": "strip-accents",
+  "author": "Erik Lundin",
+  "description": "Replace accented characters with their ASCII equivalents",
+  "keywords": ["remove", "diacritics", "accents", "ascii"],
+  "version": "0.0.1",
+  "homepage": "https://github.com/mjor/strip-accents",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mjor/strip-accents.git"
+  },
+  "engines": {
+    "node": "*"
+  }
+}

@@ -1,0 +1,13 @@
+Installation:
+
+```
+npm install strip-accents
+```
+
+Usage:
+
+```javascript
+var strip = require('strip-accents');
+
+strip('éäçñüæ'); // => 'eacnuae'
+```
