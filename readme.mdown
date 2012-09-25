@@ -1,9 +1,17 @@
-Very simple node.js utility that replaces accented characters with their ASCII
-equivalents.
+**undress** provides a function which replaces accented unicode characters with their ASCII equivalents. Unicode characters without a clear ASCII representation (such as ) will be ignored.
+
+### Usage
 
 ```javascript
-var undress = require('undress');
-undress('éäçñüæ'); // => 'eacnuae'
+require('undress')('éäçñÜæ'); // -> 'eacnUae'
 ```
 
-Install with `npm install undress`.
+### Installation
+
+```
+npm install undress
+```
+
+### License
+
+Public domain.
