@@ -1,16 +1,9 @@
 {
   "name": "undress",
-  "author": "Erik Lundin",
-  "description": "Replace accented characters with their ASCII equivalents",
-  "keywords": ["remove", "diacritics", "accents", "ascii"],
   "version": "0.0.3",
+  "description": "Replace accented characters with their ASCII equivalents",
+  "keywords": ["remove", "diacritics", "accents", "unicode", "ascii"],
+  "author": "Erik Lundin",
   "homepage": "https://github.com/mjor/undress",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mjor/undress.git"
-  },
-  "main": "undress.js",
-  "engines": {
-    "node": "*"
-  }
+  "main": "undress.js"
 }
