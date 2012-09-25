@@ -1,7 +1,7 @@
 {
   "name": "undress",
   "version": "0.1.0",
-  "description": "Replace accented characters with their ASCII equivalents",
+  "description": "Replace accented unicode characters with their ASCII equivalents",
   "keywords": ["strip", "diacritics", "accents", "unicode", "ascii"],
   "author": "Erik Lundin",
   "homepage": "https://github.com/mjor/undress",
