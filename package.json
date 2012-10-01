@@ -4,6 +4,6 @@
   "description": "Replace accented unicode characters with their ASCII equivalents",
   "keywords": ["strip", "diacritics", "accents", "unicode", "ascii"],
   "author": "Erik Lundin",
-  "homepage": "https://github.com/mjor/undress",
+  "homepage": "https://github.com/evlun/undress",
   "main": "undress.js"
 }
